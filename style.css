@@ -46,6 +46,7 @@ header img.profile-pic {
     border-radius: 50%; /* Rend l'image ronde */
     object-fit: cover; /* Coupe et ajuste l'image si nécessaire */
     padding-inline: -50px;
+    margin-left: 50px;
 }
 
 main {
@@ -118,7 +119,18 @@ footer {
 
 .project-box:hover {
     transform: scale(1.02); /* Effet zoom au survol */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 8px rgba(107, 33, 33, 0.452);
+}
+
+.project-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    width: 100%; /* Prend toute la largeur de la boîte */
+    height: 100%; /* Prend toute la hauteur de la boîte */
 }
 
 .project-link {
