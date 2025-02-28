@@ -97,6 +97,11 @@ footer {
     font-size: 30px;
 }
 
+.info h4 {
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
 .info p {
     margin: 10px 0 25px;
     padding-bottom: 70px;
@@ -111,7 +116,7 @@ footer {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 1rem;
-    width: 406px; /* Largeur de la boîte */
+    width: 600px; /* Largeur de la boîte (avant "no available : 408")*/
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer; /* Change le curseur pour montrer qu'on peut cliquer */
@@ -141,4 +146,9 @@ footer {
     color: #3498db;
     font-weight: bold;
     width: 100%; /* Prend toute la largeur de la boîte */
+}
+
+.available {
+    color: #cc2e2e;
+    padding-left: 5px;
 }
